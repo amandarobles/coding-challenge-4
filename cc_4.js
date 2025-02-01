@@ -63,3 +63,8 @@ const applyDiscount = function(price, discountPercentage) {
     return price - (price * discountPercentage / 100);
 };
 console.log('Discounted Price: $${applyDiscount(100, 15)}');
+
+//task 10: Arrow Function
+const calculatePoints = purchaseAmount => Math.floor(purchaseAmount / 10);
+
+console.log('Points Earned: ${calculatePoints(250)}');
