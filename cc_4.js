@@ -28,3 +28,14 @@ do {
     console.log('Collected response #${responses + 1}');
     responses++;
 } while (responses < 3);
+
+//task 5: For...In Loop
+let employee = {
+    name: "Alice",
+    position: "Manager",
+    salary: 75000
+};
+
+for (let key in employee) {
+    console.log('${key}: ${employee[key]}');
+}
